@@ -7,8 +7,10 @@ public class ScoreScript : MonoBehaviour
 {
     public static int scoreValue = 0;
     private int bestScore;
-    TextMeshProUGUI score;
+    private int previousScoreValue;
+    public TextMeshProUGUI score;
     public TextMeshProUGUI bestScoreText;
+    public string currentLanguage = "English";
 
     private void Start()
     {
@@ -19,15 +21,21 @@ public class ScoreScript : MonoBehaviour
 
     private void Update()
     {
-        score.text = "Score: " + scoreValue;
+        if (scoreValue != previousScoreValue) 
+        {
+            UpdateScoreText();
+            previousScoreValue = scoreValue; 
+        }
 
         if (scoreValue > bestScore)
         {
+            
             bestScore = scoreValue;
             PlayerPrefs.SetInt("BestScore", bestScore);
             PlayerPrefs.Save();
             UpdateBestScoreText();
         }
+        
     }
 
     private void UpdateBestScoreText()
@@ -36,5 +44,10 @@ public class ScoreScript : MonoBehaviour
         {
             bestScoreText.text = "Best Score: " + bestScore;
         }
+    }
+
+    public void UpdateScoreText()
+    {
+        if (score != null) { if (currentLanguage == "English") { score.text = "Score: " + scoreValue; } else { score.text = "—чет: " + scoreValue; } }
     }
 }

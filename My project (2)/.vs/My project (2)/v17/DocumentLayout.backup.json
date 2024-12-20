@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\morze\\My project (2)\\",
+  "WorkspaceRootPath": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\morze\\my project (2)\\assets\\scripts\\others\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\others\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\enemy\\skeletonvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\skeletonvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\enemy\\enemyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\weapon\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\enemy\\skeletonai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\skeletonai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\others\\scorescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\others\\scorescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\others\\scorescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\others\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\morze\\documents\\github\\-unity-game-\\my project (2)\\assets\\scripts\\others\\gameoverscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\others\\gameoverscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\enemy\\skeletonai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\skeletonai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\enemy\\skeletonvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\skeletonvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\enemy\\enemyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\weapon\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\others\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\others\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\weapon\\swordvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\weapon\\swordvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\swordvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\My project (2)\\assets\\scripts\\player\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\assets\\scripts\\player\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,40 +54,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameOver.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Others\\GameOver.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Others\\GameOver.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Others\\GameOver.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Others\\GameOver.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GameOverScript.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Others\\GameOverScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Others\\GameOverScript.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Others\\GameOverScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Others\\GameOverScript.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T17:59:47.775Z",
+              "WhenOpened": "2024-12-17T18:48:22.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScoreScript.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Others\\ScoreScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Others\\ScoreScript.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Others\\ScoreScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Others\\ScoreScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:28:55.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ScoreScript.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Others\\ScoreScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Others\\ScoreScript.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Others\\ScoreScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Others\\ScoreScript.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:28:55.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Sword.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Weapon\\Sword.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Weapon\\Sword.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Sword.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Weapon\\Sword.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Weapon\\Sword.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapon\\Sword.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,9 +98,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Spawner.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Others\\Spawner.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Others\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Others\\Spawner.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Others\\Spawner.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Others\\Spawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Others\\Spawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,11 +108,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EnemyEntity.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Enemy\\EnemyEntity.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Enemy\\EnemyEntity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyEntity.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Enemy\\EnemyEntity.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Enemy\\EnemyEntity.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyEntity.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAowDoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,23 +120,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "SkeletonAI.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Enemy\\SkeletonAI.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Enemy\\SkeletonAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\SkeletonAI.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Enemy\\SkeletonAI.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Enemy\\SkeletonAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\SkeletonAI.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAA0wCsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwB8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T13:12:20.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SkeletonVisual.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Enemy\\SkeletonVisual.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Enemy\\SkeletonVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\SkeletonVisual.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Enemy\\SkeletonVisual.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Enemy\\SkeletonVisual.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\SkeletonVisual.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowEEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,9 +146,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "HealthBar.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Player\\HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Player\\HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\HealthBar.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Player\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Player\\HealthBar.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\HealthBar.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -155,11 +156,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerVisual.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Player\\PlayerVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerVisual.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Player\\PlayerVisual.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerVisual.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,9 +170,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "SwordVisual.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Weapon\\SwordVisual.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Weapon\\SwordVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\SwordVisual.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Weapon\\SwordVisual.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Weapon\\SwordVisual.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapon\\SwordVisual.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,13 +180,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Player\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "C:\\Users\\morze\\My project (2)\\Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\morze\\Documents\\GitHub\\-unity-game-\\My project (2)\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAkwJoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T02:20:14.141Z"
             }

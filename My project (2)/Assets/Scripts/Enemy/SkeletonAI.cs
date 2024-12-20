@@ -6,6 +6,9 @@ using Adventures.Utils;
 using UnityEngine.InputSystem.XR.Haptics;
 using System;
 
+/// <summary>
+/// Класс, управляющий поведением скелета.
+/// </summary>
 public class SkeletonAI : MonoBehaviour
 {
     //параметры логики 
@@ -13,11 +16,11 @@ public class SkeletonAI : MonoBehaviour
     [SerializeField] private float roamingDistanceMax = 7f;
     [SerializeField] private float roamingDistanceMin = 3f;
     [SerializeField] private float roamingTimerMax = 10f;
-    [SerializeField] private bool isChasingEnemy=false;
+    [SerializeField] private bool isChasingEnemy = false;
     [SerializeField] private float chasingDistance = 4f;
-    private float chasingSpeedMultiplier=2f;
+    private float chasingSpeedMultiplier = 2f;
 
-    [SerializeField] private bool isAttackingEnemy=false;
+    [SerializeField] private bool isAttackingEnemy = false;
     private float atackingDistance = 2f;
     private float attackRate = 1f;
     private float nextAttackTime = 0f;
@@ -41,9 +44,9 @@ public class SkeletonAI : MonoBehaviour
     private EnemyEntity enemyEntity;
     private Animator animator;
 
-    
-
-    //состояния
+    /// <summary>
+    /// Перечисление состояний скелета.
+    /// </summary>
     public enum State
     {
         Idle,
@@ -53,31 +56,36 @@ public class SkeletonAI : MonoBehaviour
         Death
     }
 
+    /// <summary>
+    /// Метод, вызываемый при инициализации объекта.
+    /// </summary>
     private void Awake()
     {
         enemyEntity = GetComponent<EnemyEntity>();
         navMeshAgent = GetComponent<NavMeshAgent>();
-        navMeshAgent.updateRotation=false;
-        navMeshAgent.updateUpAxis=false;
+        navMeshAgent.updateRotation = false;
+        navMeshAgent.updateUpAxis = false;
         currentState = startingState;
-        roamingSpeed= navMeshAgent.speed;
-        chasingSpeed=navMeshAgent.speed*chasingSpeedMultiplier;
+        roamingSpeed = navMeshAgent.speed;
+        chasingSpeed = navMeshAgent.speed * chasingSpeedMultiplier;
     }
 
-    
-
+    /// <summary>
+    /// Метод, вызываемый каждый кадр.
+    /// </summary>
     private void Update()
     {
         StateHandler();
         MuvementDuractonHandler();
     }
 
-    //типы состояний
+    /// <summary>
+    /// Обработчик состояний.
+    /// </summary>
     private void StateHandler()
     {
         switch (currentState)
         {
-            
             case State.Roaming:
                 roamingTime -= Time.deltaTime;
                 if (roamingTime < 0)
@@ -98,29 +106,33 @@ public class SkeletonAI : MonoBehaviour
                 CheckCurrentState();
                 break;
             case State.Death:
-                
                 break;
         }
     }
 
+    /// <summary>
+    /// Проверка текущего состояния.
+    /// </summary>
     private void CheckCurrentState()
     {
-        float distanceToPlayer=Vector3.Distance(transform.position, Player.Instance.transform.position);
-        State newstate=State.Roaming;
+        float distanceToPlayer = Vector3.Distance(transform.position, Player.Instance.transform.position);
+        State newstate = State.Roaming;
         if (isChasingEnemy)
         {
             if (distanceToPlayer <= chasingDistance)
             {
-                newstate=State.Chasing;
+                newstate = State.Chasing;
             }
         }
         if (isAttackingEnemy)
         {
-            if (distanceToPlayer <= atackingDistance) { 
+            if (distanceToPlayer <= atackingDistance)
+            {
                 newstate = State.Attacking;
             }
         }
-        if (newstate != currentState) {
+        if (newstate != currentState)
+        {
             if (newstate == State.Chasing)
             {
                 navMeshAgent.ResetPath();
@@ -131,13 +143,17 @@ public class SkeletonAI : MonoBehaviour
                 roamingTime = 0f;
                 navMeshAgent.speed = roamingSpeed;
             }
-            else if (newstate == State.Attacking) {
+            else if (newstate == State.Attacking)
+            {
                 navMeshAgent.ResetPath();
             }
             currentState = newstate;
         }
     }
 
+    /// <summary>
+    /// Обработчик движения.
+    /// </summary>
     private void MuvementDuractonHandler()
     {
         if (Time.time > nextCheckDirectionTime)
@@ -146,70 +162,89 @@ public class SkeletonAI : MonoBehaviour
             {
                 ChangeFacingDirection(lastPostition, transform.position);
             }
-            else if (currentState == State.Attacking) {
+            else if (currentState == State.Attacking)
+            {
                 ChangeFacingDirection(transform.position, Player.Instance.transform.position);
             }
             lastPostition = transform.position;
-            nextCheckDirectionTime = Time.time+checkDirectionDuration;
+            nextCheckDirectionTime = Time.time + checkDirectionDuration;
         }
     }
-    //преследование игрока
+
+    /// <summary>
+    /// Преследование цели.
+    /// </summary>
     private void ChasingTarget()
     {
         navMeshAgent.SetDestination(Player.Instance.transform.position);
     }
 
+    /// <summary>
+    /// Получение скорости анимации блуждания.
+    /// </summary>
     public float GetRoamingAnimationSpeed()
     {
-        return navMeshAgent.speed/roamingSpeed;
+        return navMeshAgent.speed / roamingSpeed;
     }
-    public bool IsRunning{
-        get {
+
+    /// <summary>
+    /// Проверка, бежит ли объект.
+    /// </summary>
+    public bool IsRunning
+    {
+        get
+        {
             if (navMeshAgent.velocity == Vector3.zero)
             {
                 return false;
             }
             else { return true; }
         }
-        
-        }
+    }
 
+    /// <summary>
+    /// Установка состояния смерти.
+    /// </summary>
     public void SetDeathState()
     {
         navMeshAgent.ResetPath();
         currentState = State.Death;
-        
-        
-
     }
 
-   
-
-        private void AttackingTarget()
+    /// <summary>
+    /// Атака цели.
+    /// </summary>
+    private void AttackingTarget()
     {
         if (Time.time > nextAttackTime)
         {
             onEnemyAttack?.Invoke(this, EventArgs.Empty);
             nextAttackTime = Time.time + attackRate;
         }
-        
-        
     }
 
+    /// <summary>
+    /// Блуждание.
+    /// </summary>
     private void Roaming()
     {
-        startPosition=transform.position;
+        startPosition = transform.position;
         roamPosition = GetRoamPosition();
         ChangeFacingDirection(startPosition, roamPosition);
         navMeshAgent.SetDestination(roamPosition);
     }
 
-
+    /// <summary>
+    /// Получение позиции для блуждания.
+    /// </summary>
     private Vector3 GetRoamPosition()
     {
-        return startPosition + Utils.GetRandomDir()* UnityEngine.Random.Range(roamingDistanceMin, roamingDistanceMax);
+        return startPosition + Utils.GetRandomDir() * UnityEngine.Random.Range(roamingDistanceMin, roamingDistanceMax);
     }
 
+    /// <summary>
+    /// Изменение направления взгляда.
+    /// </summary>
     private void ChangeFacingDirection(Vector3 sourcePosition, Vector3 targetPosition)
     {
         if (sourcePosition.x > targetPosition.x)
@@ -221,5 +256,5 @@ public class SkeletonAI : MonoBehaviour
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-        }
+    }
 }
