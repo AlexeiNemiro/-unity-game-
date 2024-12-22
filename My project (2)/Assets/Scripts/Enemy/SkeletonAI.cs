@@ -68,6 +68,8 @@ public class SkeletonAI : MonoBehaviour
         currentState = startingState;
         roamingSpeed = navMeshAgent.speed;
         chasingSpeed = navMeshAgent.speed * chasingSpeedMultiplier;
+
+        Logger.Log("SkeletonAI initialized.");
     }
 
     /// <summary>
@@ -148,6 +150,8 @@ public class SkeletonAI : MonoBehaviour
                 navMeshAgent.ResetPath();
             }
             currentState = newstate;
+
+            
         }
     }
 
@@ -177,6 +181,7 @@ public class SkeletonAI : MonoBehaviour
     private void ChasingTarget()
     {
         navMeshAgent.SetDestination(Player.Instance.transform.position);
+        Logger.Log("SkeletonAI is chasing the target.");
     }
 
     /// <summary>
@@ -209,6 +214,7 @@ public class SkeletonAI : MonoBehaviour
     {
         navMeshAgent.ResetPath();
         currentState = State.Death;
+        Logger.Log("SkeletonAI has died.");
     }
 
     /// <summary>
@@ -220,6 +226,7 @@ public class SkeletonAI : MonoBehaviour
         {
             onEnemyAttack?.Invoke(this, EventArgs.Empty);
             nextAttackTime = Time.time + attackRate;
+            Logger.Log("SkeletonAI is attacking the target.");
         }
     }
 
@@ -232,6 +239,7 @@ public class SkeletonAI : MonoBehaviour
         roamPosition = GetRoamPosition();
         ChangeFacingDirection(startPosition, roamPosition);
         navMeshAgent.SetDestination(roamPosition);
+        Logger.Log("SkeletonAI is roaming.");
     }
 
     /// <summary>

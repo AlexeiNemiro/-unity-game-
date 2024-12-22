@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentation>
+	<class name="SkeletonAI">
+		<summary>Класс, представляющий искусственный интеллект скелета.</summary>
+		<method name="Awake">
+			<summary>Метод, вызываемый при инициализации объекта.</summary>
+		</method>
+		<method name="Update">
+			<summary>Метод, вызываемый каждый кадр для обновления состояния скелета.</summary>
+		</method>
+		<method name="StateHandler">
+			<summary>Метод для обработки состояний скелета.</summary>
+		</method>
+		<method name="CheckCurrentState">
+			<summary>Метод для проверки текущего состояния скелета.</summary>
+		</method>
+		<method name="MuvementDuractonHandler">
+			<summary>Метод для обработки движения скелета.</summary>
+		</method>
+		<method name="ChasingTarget">
+			<summary>Метод для преследования цели.</summary>
+		</method>
+		<method name="GetRoamingAnimationSpeed">
+			<summary>Метод для получения скорости анимации блуждания.</summary>
+		</method>
+		<method name="IsRunning">
+			<summary>Свойство, указывающее, бежит ли скелет.</summary>
+		</method>
+		<method name="SetDeathState">
+			<summary>Метод для установки состояния смерти.</summary>
+		</method>
+		<method name="AttackingTarget">
+			<summary>Метод для атаки цели.</summary>
+		</method>
+		<method name="Roaming">
+			<summary>Метод для блуждания скелета.</summary>
+		</method>
+		<method name="GetRoamPosition">
+			<summary>Метод для получения случайной позиции для блуждания.</summary>
+		</method>
+		<method name="ChangeFacingDirection">
+			<summary>Метод для изменения направления взгляда скелета.</summary>
+		</method>
+	</class>
+
+	<class name="Player">
+		<summary>Класс, представляющий игрока.</summary>
+		<method name="Awake">
+			<summary>Метод, вызываемый при инициализации объекта.</summary>
+		</method>
+		<method name="Start">
+			<summary>Метод, вызываемый при старте игры.</summary>
+		</method>
+		<method name="IsAlive">
+			<summary>Метод для проверки, жив ли игрок.</summary>
+		</method>
+		<method name="Player_OnPlayerAttack">
+			<summary>Обработчик события атаки игрока.</summary>
+		</method>
+		<method name="PlayerAttack_started">
+			<summary>Метод, вызываемый при начале атаки игрока.</summary>
+		</method>
+		<method name="FixedUpdate">
+			<summary>Метод, вызываемый каждый кадр для обновления состояния игрока.</summary>
+		</method>
+		<method name="HandleMovement">
+			<summary>Метод для обработки передвижения игрока.</summary>
+		</method>
+		<method name="IsRunning">
+			<summary>Метод для проверки, бежит ли игрок.</summary>
+		</method>
+		<method name="GetMousePosition">
+			<summary>Метод для получения позиции мыши.</summary>
+		</method>
+		<method name="GetPlayerScreenPosition">
+			<summary>Метод для получения экранной позиции игрока.</summary>
+		</method>
+		<method name="DisableMovement">
+			<summary>Метод для отключения передвижения игрока.</summary>
+		</method>
+		<method name="DetectDeath">
+			<summary>Метод для проверки смерти игрока.</summary>
+		</method>
+		<method name="TakeDamage">
+			<summary>Метод для обработки получения урона игроком.</summary>
+		</method>
+		<method name="DamageRecoveryRoutine">
+			<summary>Корутин для восстановления после получения урона.</summary>
+		</method>
+	</class>
+
+	<class name="PlayerVisual">
+		<summary>Класс, отвечающий за визуальное представление игрока.</summary>
+		<method name="Awake">
+			<summary>Метод, вызываемый при инициализации объекта.</summary>
+		</method>
+		<method name="Start">
+			<summary>Метод, вызываемый при старте игры.</summary>
+		</method>
+		<method name="Player_OnPlayerDeath">
+			<summary>Обработчик события смерти игрока.</summary>
+		</method>
+		<method name="Player_OnPlayerTakeHit">
+			<summary>Обработчик события получения урона игроком.</summary>
+		</method>
+		<method name="Update">
+			<summary>Метод, вызываемый каждый кадр для обновления состояния анимации.</summary>
+		</method>
+		<method name="AdjustPlayerFacingDirection">
+			<summary>Метод для корректировки направления взгляда игрока.</summary>
+		</method>
+	</class>
+
+	<class name="HealthBar">
+		<summary>Класс, отвечающий за отображение полоски здоровья игрока.</summary>
+		<method name="Start">
+			<summary>Метод, вызываемый при старте игры.</summary>
+		</method>
+		<method name="Update">
+			<summary>Метод, вызываемый каждый кадр для обновления значения полоски здоровья.</summary>
+		</method>
+	</class>
+
+	<class name="SkeletonVisual">
+		<summary>Класс, отвечающий за визуальное представление скелета.</summary>
+		<method name="Awake">
+			<summary>Метод, вызываемый при инициализации объекта.</summary>
+		</method>
+		<method name="Start">
+			<summary>Метод, вызываемый при старте игры.</summary>
+		</method>
+		<method name="enemyEntityOnDeath">
+			<summary>Обработчик события смерти врага.</summary>
+		</method>
+		<method name="enemyEntityOnTakeHit">
+			<summary>Обработчик события получения урона врагом.</summary>
+		</method>
+		<method name="skeletonAI_OnEnemyAttack">
+			<summary>Обработчик события атаки врага.</summary>
+		</method>
+		<method name="OnDestroy">
+			<summary>Метод, вызываемый при уничтожении объекта.</summary>
+		</method>
+		<method name="Update">
+			<summary>Метод, вызываемый каждый кадр для обновления состояния анимации.</summary>
+		</method>
+		<method name="TriggerGetScore">
+			<summary>Метод для увеличения счета при смерти врага.</summary>
+		</method>
+		<method name="TriggerAttackAnimationTurnOff">
+			<summary>Метод для отключения коллайдера атаки.</summary>
+		</method>
+		<method name="TriggerAttackAnimationTurnOn">
+			<summary>Метод для включения коллайдера атаки.</summary>
+		</method>
+	</class>
+
+	<class name="EnemyEntity">
+		<summary>Класс, представляющий сущность врага.</summary>
+		<method name="Awake">
+			<summary>Метод, вызываемый при инициализации объекта.</summary>
+		</method>
+		<method name="Start">
+			<summary>Метод, вызываемый при старте игры.</summary>
+		</method>
+		<method name="TakeDamage">
+			<summary>Метод для нанесения урона врагу.</summary>
+		</method>
+		<method name="OnTriggerStay2D">
+			<summary>Метод, вызываемый при нахождении врага в триггерной зоне.</summary>
+		</method>
+		<method name="DetectDeath">
+			<summary>Метод для проверки смерти врага.</summary>
+		</method>
+		<method name="PolygonColliderTurnOff">
+			<summary>Метод для отключения полигонального коллайдера.</summary>
+		</method>
+		<method name="PolygonColliderTurnOn">
+			<summary>Метод для включения полигонального коллайдера.</summary>
+		</method>
+	</class>
+
+	<class name="Spawner">
+		<summary>Класс, отвечающий за спавн врагов.</summary>
+		<method name="Start">
+			<summary>Метод, вызываемый при старте игры.</summary>
+		</method>
+		<method name="Update">
+			<summary>Метод, вызываемый каждый кадр для обновления состояния спавна.</summary>
+		</method>
+	</class>
+
+	<class name="ScoreScript">
+		<summary>Класс, отвечающий за отображение и обновление счета игрока.</summary>
+		<method name="Start">
+			<summary>Метод, вызываемый при старте игры.</summary>
+		</method>
+		<method name="Update">
+			<summary>Метод, вызываемый каждый кадр для обновления счета.</summary>
+		</method>
+		<method name="UpdateBestScoreText">
+			<summary>Метод для обновления текста лучшего счета.</summary>
+		</method>
+		<method name="UpdateScoreText">
+			<summary>Метод для обновления текста текущего счета в зависимости от выбранного языка.</summary>
+		</method>
+	</class>
+
+	<class name="GameOverScript">
+		<summary>Класс, отвечающий за обработку окончания</summary>
+	</class>
+	</documentation>
+		
